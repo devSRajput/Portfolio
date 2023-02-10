@@ -1,0 +1,288 @@
+.logo{
+    background-image:linear-gradient(to right,rgb(182, 8, 8),rgb(92, 14, 14));
+}
+
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+    
+}
+ol li{
+    display: inline;
+    font-size: 40px;
+}
+#h{
+    margin-left: 30px;
+    width: 500px;
+   font-family:cursive;
+}
+.img2{
+    margin-left: 21px;
+    border-radius: 10px;
+    border-color: brown;
+    border-style: double;
+    border-width: 8px;
+    
+}
+
+.img3{
+
+    border-radius: 10px;
+    border-color: brown;
+    border-style: double;
+    border-width: 8px;
+}
+.eve1{
+    float: right;
+    text-align:center;
+    background-color:orange;
+
+}
+body{
+    background-color:rgb(230, 216, 129);
+}
+.but1{
+    width: 220px;
+    padding: 5px;
+    float: left;
+}
+form{
+    background-color: orange ;
+}
+.cat1{
+    float: left;
+
+}
+hr{
+    border: 5px solid rgb(230, 216, 129);
+    color:  rgb(230, 216, 129);
+}
+h3{
+    text-align: center;
+    background-color:rgba(100, 49, 49, 0.558);
+    padding: 3px;
+    font-family: 'Bree Serif', serif;
+}
+h5{
+    padding-left: 20px;
+    font-size:0.9rem;
+}
+#info1{
+    margin-left: 15.5%;
+    width: px;
+    height: 600px;
+    margin-right: 20%;
+    background-image: linear-gradient(to right,rgb(255, 253, 253),rgb(245, 179, 179));
+    border-radius: 14px;
+}
+.info2{
+    background-color: aliceblue;
+    padding-left: 10px;
+    color:white;
+    font-size: 1.3rem;
+    
+    
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ .nav1 ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+ }
+ .nav1  ul li{
+
+    background-color: black;
+    border: 2px solid white;
+    width:363px;
+    height: 40px;
+    /* line-height: 40px; */
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 29px;
+    text-decoration: ;
+    font-family: 'Lobster', cursive;
+    position: relative;
+    border-radius: 8px;
+    
+    
+
+
+}
+.nav1 ul li a{
+
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.nav1 ul ul{
+    position: absolute;
+    display:none;
+    /* border-radius: 4px; */
+
+}
+.nav1 ul li:hover >ul{
+
+    display: block;
+    
+    
+}
+.nav1  ul li a:hover
+{
+background-color: crimson;
+color: palegoldenrod;
+/* border-radius: 4px; */
+display: block;
+
+}
+input[type=submit]
+{
+margin-top:20px;
+margin-left: 20px;
+    background-color:black;
+    color:white;
+    font-size: 1.3rem;
+}
+
+#info1 h2{
+    color:white;
+    font-size:2.0rem;
+    text-align: center;
+    background-color: black;
+    font-family:cursive;
+    border-radius: 25px;
+    
+
+
+}
+p{
+    font-weight: bold;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+ #part{
+
+    background-color:orange;
+    position: absolute;
+    height: 250px;
+    width:257px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.btn-sm{
+    color: crimson;
+    background-color: black;
+    font-weight: bold;
+    margin-right: 1px;
+    border-radius: 3px;
+    justify-content: center;
+    margin-left: 60px;
+    cursor: pointer;
+    
+    }
+
+    input[type=text]
+{
+
+    background-color:khaki;
+    color:black;
+    /* font-size: x-large; */
+    border: 5px;
+    border-style:double;
+}
+
+input[type=email]
+{
+
+    background-color:khaki;
+    color: black;
+    /* font-size: x-large; */
+    border: 5px;
+    border-style:double;
+}
+
+.form1{
+
+    font-weight: bold;
+}
+
+/* #info1 img{
+    gap:1px;
+    width:500px;
+} */
+
+
+#info1 .info2 p{
+
+    display: inline;
+    /* vertical-align: middle;
+    justify-content: end;
+    align-content: flex-end; */
+    float:right;
+    padding-right: 80px;
+}
+
+.img7{
+    /* padding-bottom: 40px; */
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+#last h1{
+
+    color:whitesmoke;
+    float:right;
+    padding-right: 400px;
+    font-family:cursive;
+
+}
+
+
+ .btn{
+
+    color:black;
+    /* background-color: black; */
+    display: inline;
+    /* display: flex; */
+    margin: auto;
+    display: block;
+    width:200px;
+    height:30px ;
+    border-radius: 9px;
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: 1.5rem;
+    outline:none;
+    cursor:pointer;
+    transition: 0.3s linear;
+ }
+
+ .btn:hover{
+     transform: rotateY(40deg);
+     box-shadow: -20px 0 15px;
+ }
+
+ .info2 kbd{
+     color:white;
+     text-align:center;
+     font-size: 1.7rem;
+     margin-left: 550px;
+     font-weight: bold;
+     font-family: cursive;
+    
+ }
+
+
